@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BLL
+namespace Entidades
 {
-    public class Class1
+    public class CuentasBancarias
     {
+
     }
 }
