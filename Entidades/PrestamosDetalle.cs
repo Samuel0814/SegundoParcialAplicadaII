@@ -13,7 +13,7 @@ namespace Entidades
         [Key]
         public int PrestamoDetalleID { get; set; }
         public int PrestamoId { get; set; }
-        public int numCuota { get; set; }
+        public int NumCuota { get; set; }
         public decimal Capital { get; set; }
         public decimal Interes { get; set; }
         public decimal Valor { get; set; }
@@ -22,7 +22,7 @@ namespace Entidades
         public PrestamosDetalle()
         {
             PrestamoDetalleID = 0;
-            numCuota = 0;
+            NumCuota = 0;
             PrestamoId = 0;
             Valor = 0;
             Capital = 0;
@@ -33,7 +33,7 @@ namespace Entidades
         public PrestamosDetalle(int prestamoDetalleId, int numCuota, int PrestamoId, decimal Pago, decimal Capital, decimal Interes, decimal SaldoDeuda)
         {
             this.PrestamoDetalleID = prestamoDetalleId;
-            this.numCuota = numCuota;
+            this.NumCuota = numCuota;
             this.PrestamoId = PrestamoId;
             this.Valor = Pago;
             this.Capital = Capital;

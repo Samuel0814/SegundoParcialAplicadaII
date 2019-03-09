@@ -21,11 +21,11 @@ namespace Entidades
         public decimal InteresTotal { get; set; }
         public decimal Total { get; set; }
 
-        public virtual List<PrestamoDetalle> Detalle { get; set; }
+        public virtual List<PrestamosDetalle> Detalle { get; set; }
 
-        public Prestamos(int prestamosId, DateTime fecha, int cuentaId, decimal capital, decimal interesAnual, int tiempoMeses, decimal capitaTotal, decimal interesTotal, decimal total, List<PrestamoDetalle> detalle)
+        public Prestamos(int prestamosId, DateTime fecha, int cuentaId, decimal capital, decimal interesAnual, int tiempoMeses, decimal capitaTotal, decimal interesTotal, decimal total, List<PrestamosDetalle> detalle)
         {
-            PrestamosId = prestamosId;
+            PrestamosID = prestamosId;
             Fecha = fecha;
             CuentaId = cuentaId;
             Capital = capital;
@@ -39,7 +39,7 @@ namespace Entidades
 
         public Prestamos()
         {
-            this.PrestamosId = 0;
+            this.PrestamosID = 0;
             this.Fecha = DateTime.Now;
             this.CuentaId = 0;
             this.Capital = 0;
@@ -48,7 +48,7 @@ namespace Entidades
             CapitaTotal = 0;
             InteresTotal = 0;
             Total = 0;
-            Detalle = new List<PrestamoDetalle>();
+            Detalle = new List<PrestamosDetalle>();
         }
     }
 }
