@@ -208,6 +208,11 @@
     <Compile Include="Registro\rPrestamos.aspx.designer.cs">
       <DependentUpon>rPrestamos.aspx</DependentUpon>
     </Compile>
+    <Compile Include="SegundoParcialDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SegundoParcialDBDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -221,6 +226,17 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <Content Include="SegundoParcialDBDataSet.xsc">
+      <DependentUpon>SegundoParcialDBDataSet.xsd</DependentUpon>
+    </Content>
+    <None Include="SegundoParcialDBDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SegundoParcialDBDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="SegundoParcialDBDataSet.xss">
+      <DependentUpon>SegundoParcialDBDataSet.xsd</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -233,6 +249,16 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{B848EAF8-79D0-4381-9CDF-5B21A109EA9A}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{5104162C-4D9A-40B7-8A69-F93B64A067ED}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Reportes\" />
