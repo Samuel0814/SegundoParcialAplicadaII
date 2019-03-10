@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="cCuentasBancarias.aspx.cs" Inherits="SegundoParcial.Consultas.cCuentasBancarias" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div>
@@ -55,7 +55,7 @@
                         <div class="modal-body">
                             <div id="div1">
                                 <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
-                                <rsweb:reportviewer ID="CuentasReportViewer" Width="100%" runat="server"></rsweb:reportviewer>
+                                <%--<rsweb:reportviewer ID="CuentasReportViewer" Width="100%" runat="server"></rsweb:reportviewer>--%>
                             </div>
                         </div>
                         <div class="modal-footer">

@@ -19,15 +19,15 @@ namespace SegundoParcial.Consultas
         {
             if (!Page.IsPostBack)
             {
-                CuentasReportViewer.ProcessingMode = Microsoft.Reporting.WebForms.ProcessingMode.Local;
-                CuentasReportViewer.Reset();
+                //CuentasReportViewer.ProcessingMode = Microsoft.Reporting.WebForms.ProcessingMode.Local;
+                //CuentasReportViewer.Reset();
 
-                CuentasReportViewer.LocalReport.ReportPath = Server.MapPath(@"~\Reportes\ReporteCuentas.rdlc");
+                //CuentasReportViewer.LocalReport.ReportPath = Server.MapPath(@"~\Reportes\ReporteCuentas.rdlc");
 
-                CuentasReportViewer.LocalReport.DataSources.Clear();
+                //CuentasReportViewer.LocalReport.DataSources.Clear();
 
-                CuentasReportViewer.LocalReport.DataSources.Add(new ReportDataSource("Cuentas", repositorio.GetList(x => true)));
-                CuentasReportViewer.LocalReport.Refresh();
+                //CuentasReportViewer.LocalReport.DataSources.Add(new ReportDataSource("Cuentas", repositorio.GetList(x => true)));
+                //CuentasReportViewer.LocalReport.Refresh();
             }
         }
 

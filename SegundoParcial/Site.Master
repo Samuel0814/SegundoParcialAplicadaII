@@ -14,7 +14,9 @@
     
     <link href="css/toastr.css" rel="stylesheet" />
     <script src="js/toastr.js"></script>
-    <asp:ContentPlaceHolder ID="head" runat="server">
+    <asp:ContentPlaceHolder ID=ContentPlaceHolder2 runat="server">
+    </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID=head runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
@@ -32,8 +34,8 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuReg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registros</a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" runat="server" href="Registros/rCuentasBancarias.aspx">Cuentas Bancarias</a>
-                                    <a class="dropdown-item" runat="server" href="Registros/rPrestamos.aspx">Prestamos</a>
+                                    <a class="dropdown-item" runat="server" href="Registro/rCuentasBancarias.aspx">Cuentas Bancarias</a>
+                                    <a class="dropdown-item" runat="server" href="Registro/rPrestamos.aspx">Prestamos</a>
                                 </div>
                             </li>
 
