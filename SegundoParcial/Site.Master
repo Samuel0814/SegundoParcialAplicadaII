@@ -14,8 +14,6 @@
     
     <link href="css/toastr.css" rel="stylesheet" />
     <script src="js/toastr.js"></script>
-    <asp:ContentPlaceHolder ID=ContentPlaceHolder2 runat="server">
-    </asp:ContentPlaceHolder>
         <asp:ContentPlaceHolder ID=head runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -51,14 +49,12 @@
                     </div>
                 </nav>
             </header>
-
             <div class="container body-content">
                 <asp:ContentPlaceHolder ID="MainContent" runat="server">
                 </asp:ContentPlaceHolder>
             </div>
         </div>
     </form>
-
     <footer class="footer">
         <div class="container">
             <hr />

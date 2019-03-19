@@ -1,6 +1,4 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="rCuentasBancarias.aspx.cs" Inherits="SegundoParcial.Registro.rCuentasBancarias" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
-    </asp:Content>
     <asp:Content ID="Content3" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -36,5 +34,4 @@
         <asp:Button class="btn btn-success" ValidationGroup="save" CausesValidation="true" ID="ButtonGuardar" runat="server" Text="Guardar" OnClick="ButtonGuardar_Click" />
         <asp:Button class="btn btn-danger" CausesValidation="false" ID="ButtonEliminar" runat="server" Text="Eliminar" OnClick="ButtonEliminar_Click" />
     </div>
-
 </asp:Content>

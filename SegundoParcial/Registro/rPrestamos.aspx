@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="rPrestamos.aspx.cs" Inherits="SegundoParcial.Registro.rPrestamos" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-
     <label for="TextBoxCuentaID">ID</label>
     <div class="form-row">
         <div class="form-group col-md-1">
@@ -74,5 +74,4 @@
         <asp:Button class="btn btn-danger" ID="ButtonEliminar" runat="server" Text="Eliminar" Visible="false" OnClick="ButtonEliminar_Click" />
         <asp:Button class="btn btn-warning" ID="ButtonImprimir" runat="server" Text="Imprimir" Visible="false" OnClick="ButtonImprimir_Click" />
     </div>
-
 </asp:Content>
