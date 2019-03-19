@@ -32,8 +32,8 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuReg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registros</a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" runat="server" href="Registro/rCuentasBancarias.aspx">Cuentas Bancarias</a>
-                                    <a class="dropdown-item" runat="server" href="Registro/rPrestamos.aspx">Prestamos</a>
+                                    <a class="dropdown-item" runat="server" href="Registros/rCuentasBancarias.aspx">Cuentas Bancarias</a>
+                                    <a class="dropdown-item" runat="server" href="Registros/rPrestamos.aspx">Prestamos</a>
                                 </div>
                             </li>
 
@@ -42,7 +42,7 @@
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <a class="dropdown-item" runat="server" href="Consultas/cCuentasBancarias.aspx">Cuentas Bancarias</a>
-                                    <a class="dropdown-item" runat="server" href="Consultas/cPrestamo.aspx">Prestamo</a>
+                                    <a class="dropdown-item" runat="server" href="Consultas/cPrestamos.aspx">Prestamo</a>
                                 </div>
                             </li>
                         </ul>

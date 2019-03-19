@@ -1,1 +1,2 @@
-create database SegundoParcialDB
+create database SegundoParcialDB;
+drop database SegundoParcialDB;
